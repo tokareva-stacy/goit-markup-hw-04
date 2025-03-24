@@ -49,19 +49,19 @@ img {
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
 }
 
 .header-menu-list {
     display: flex;
     gap: 40px;
-    
 
 }
 .header-menu-item {
@@ -90,6 +90,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:hover, .header-menu-link:focus {
@@ -123,7 +124,8 @@ img {
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    display: flex;
+
+    
 }
 
 .hero-title {
@@ -132,10 +134,9 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 48px;
-    max-width: 496px;
     margin: 0 auto;
     text-align: center;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -151,7 +152,7 @@ img {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    
+    margin-top: 48px;
 }
 
 /* Section 2 */
@@ -219,7 +220,6 @@ img {
 }
 
 .team-list {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
 }
@@ -228,22 +228,18 @@ img {
     background-color:#fff;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     flex-basis: calc((100% - 72px) / 4);
-    height: 380px;
     border-radius: 0px 0px 4px 4px;
-   
-    
+
 }
 
 .team-image {
-
-    height: 260px;
+    display: block;
 }
 
 .team-card {
-    padding-bottom: 32px;
     padding: 32px 0;
-    
 }
+
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -285,21 +281,25 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio-item {
-    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 48px) / 3)
 }
 
-.portfolio-image {}
+.portfolio-image {
+    display: block;
+    max-width: 100%;
+    object-fit: contain;
+}
 
 .portfolio-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    
+    
 }
 
 .portfolio-subtitle {
@@ -316,6 +316,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 /* FOOTER */
@@ -346,5 +347,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
