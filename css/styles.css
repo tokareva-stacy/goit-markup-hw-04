@@ -445,7 +445,9 @@ img {
 }
 
 .footer-descr {
-    max-width: 300px;
+    max-width: 264px;
+    margin-right: 120px;
+
 }
 .footer-logo-studio {
     color: #f4f4fd;
@@ -469,14 +471,13 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .footer-soc-media {
     display: flex;
     flex-direction: column;
     max-width: 208px;
-    margin-left: 120px;
 }
 
 .soc-media-text {
