@@ -19,6 +19,7 @@ h6 {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 ul {
     list-style-type: none;
@@ -439,9 +440,15 @@ img {
     padding-bottom: 100px;
 }
 
+.container .footer-container {
+    display: flex;
+    align-items: baseline;
+
+}
+
 .footer-descr {
     max-width: 300px;
-    
+    margin-right: 120px;
 }
 .footer-logo-studio {
     color: #f4f4fd;
@@ -465,17 +472,15 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
+    font-weight: 500;
     
 }
 
 .footer-soc-media {
     display: flex;
     flex-direction: column;
-    text-align: center;
     max-width: 208px;
     margin-left: 540px;
-    
-
 }
 
 .soc-media-text {
