@@ -486,7 +486,10 @@ img {
     letter-spacing: 0.02em;
     color: #fff;
     display: flex;
-    
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #fff;
+    line-height: 1.5;
 }
 
 .soc-media-list {
