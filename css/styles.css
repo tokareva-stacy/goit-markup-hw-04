@@ -39,7 +39,7 @@ button:hover, button:focus {
 /* HEADER */
 img {
     display: block;
-    padding-bottom: 32px;
+
     
 }
 
@@ -147,7 +147,7 @@ img {
     background: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office\ 1.jpg);
@@ -184,6 +184,7 @@ img {
     border-radius: 4px;
     margin: 0 auto;
     margin-top: 48px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 /* Section 2 */
@@ -213,6 +214,23 @@ img {
 .features-item {
     flex-basis: calc((100% - 48px) / 4);
 }
+
+.features-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    width: 100%;
+    border: 1px solid #8e8f99;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+.features-link {}
+
+.features-icon {}
+
 
 .features-subtitle {
     font-weight: 500;
@@ -287,6 +305,42 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
+}
+
+.soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 0 16px;
+    /* flex-direction: row; */
+}
+    
+
+.soc-list-item {
+    width: 40px;
+    height: 40px;
+
+}
+.soc-link {
+background-color: #4d5ae5;
+width: 40px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+
+}
+.soc-link:hover {
+    background-color: #404BBF;
+}
+
+
+
+.soc-link-icon {
+    fill: #f4f4fd;
+    /* padding-top: 8px; */
 }
 
 /* Section 4 */
