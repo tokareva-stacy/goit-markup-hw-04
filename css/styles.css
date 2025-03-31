@@ -31,10 +31,11 @@ a {text-decoration: none;}
 button {
     cursor: pointer;
     background-color: #4D5AE5;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 button:hover, button:focus {
     background-color: #404BBF;
+    
 }
 
 /* HEADER */
@@ -156,8 +157,6 @@ img {
     background-position: center;
     background-size: cover;
     
-
-    
 }
 
 .hero-title {
@@ -228,7 +227,7 @@ img {
     margin-bottom: 8px;
 }
 
-.features-link {}
+
 
 .features-icon {}
 
@@ -473,8 +472,7 @@ img {
     text-align: center;
     max-width: 208px;
     margin-left: 540px;
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
+    
 
 }
 
